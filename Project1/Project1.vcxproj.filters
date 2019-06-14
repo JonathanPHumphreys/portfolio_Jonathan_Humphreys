@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Resource Files\maps">
+      <UniqueIdentifier>{54dd7e22-7094-48e1-9e1a-0fc92d2adcf9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\images">
+      <UniqueIdentifier>{cb538e44-8b48-4505-91d6-effba899fbd3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\music">
+      <UniqueIdentifier>{e4307d58-50e2-42eb-92a5-5fb67e6f725b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="file.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Animator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LevelGenerator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Pathfinding.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="constants.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="file.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Animator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LevelGenerator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Pathfinding.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="dir_down_off.png">
+      <Filter>Resource Files\images</Filter>
+    </Image>
+    <Image Include="dir_down_on.png">
+      <Filter>Resource Files\images</Filter>
+    </Image>
+    <Image Include="dir_left_off.png">
+      <Filter>Resource Files\images</Filter>
+    </Image>
+    <Image Include="dir_left_on.png">
+      <Filter>Resource Files\images</Filter>
+    </Image>
+    <Image Include="dir_right_off.png">
+      <Filter>Resource Files\images</Filter>
+    </Image>
+    <Image Include="dir_right_on.png">
+      <Filter>Resource Files\images</Filter>
+    </Image>
+    <Image Include="dir_up_off.png">
+      <Filter>Resource Files\images</Filter>
+    </Image>
+    <Image Include="dir_up_on.png">
+      <Filter>Resource Files\images</Filter>
+    </Image>
+    <Image Include="guard.png">
+      <Filter>Resource Files\images</Filter>
+    </Image>
+    <Image Include="orb.png">
+      <Filter>Resource Files\images</Filter>
+    </Image>
+    <Image Include="orb_green.png">
+      <Filter>Resource Files\images</Filter>
+    </Image>
+    <Image Include="orb_pink.png">
+      <Filter>Resource Files\images</Filter>
+    </Image>
+    <Image Include="orb_purple.png">
+      <Filter>Resource Files\images</Filter>
+    </Image>
+    <Image Include="player1.png">
+      <Filter>Resource Files\images</Filter>
+    </Image>
+    <Image Include="player2.png">
+      <Filter>Resource Files\images</Filter>
+    </Image>
+    <Image Include="sentry.png">
+      <Filter>Resource Files\images</Filter>
+    </Image>
+    <Image Include="wall.png">
+      <Filter>Resource Files\images</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="loop.mp3">
+      <Filter>Resource Files\music</Filter>
+    </Media>
+    <Media Include="zap1.wav">
+      <Filter>Resource Files\music</Filter>
+    </Media>
+    <Media Include="zap2.wav">
+      <Filter>Resource Files\music</Filter>
+    </Media>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="map1.txt">
+      <Filter>Resource Files\maps</Filter>
+    </Text>
+  </ItemGroup>
+</Project>

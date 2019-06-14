@@ -1,0 +1,11 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(376,5): warning MSB8004: Intermediate Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Intermediate Directory.
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(377,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+  main.cpp
+c:\users\j\documents\projects\portfolio\portfolio_jonathan_humphreys - copy\project1\main.cpp(23): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+c:\users\j\documents\projects\portfolio\portfolio_jonathan_humphreys - copy\project1\main.cpp(75): warning C4244: 'argument': conversion from 'double' to 'Uint32', possible loss of data
+c:\users\j\documents\projects\portfolio\portfolio_jonathan_humphreys - copy\project1\main.cpp(90): warning C4018: '<': signed/unsigned mismatch
+c:\users\j\documents\projects\portfolio\portfolio_jonathan_humphreys - copy\project1\main.cpp(104): warning C4018: '<': signed/unsigned mismatch
+c:\users\j\documents\projects\portfolio\portfolio_jonathan_humphreys - copy\project1\main.cpp(108): warning C4018: '<': signed/unsigned mismatch
+c:\users\j\documents\projects\portfolio\portfolio_jonathan_humphreys - copy\project1\main.cpp(112): warning C4018: '<': signed/unsigned mismatch
+c:\users\j\documents\projects\portfolio\portfolio_jonathan_humphreys - copy\project1\main.cpp(117): warning C4018: '<': signed/unsigned mismatch
+  Project1.vcxproj -> C:\Users\J\Documents\Projects\PORTFOLIO\portfolio_Jonathan_Humphreys - Copy\Project1\..\Debug\Project1.exe
